@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index2.css">
+
+</head>
+
+<body>
+    <div class="container-fluid back ">
+        <div class="row justify-content-center pb-5 shadow ">
+            <div class="col-12 col-md-10  text-center ">
+                <nav
+                    class="navbar navbar-expand-lg navbar-primary bg-light d-none d-xl-block fixed-top  border-bottom-nav ">
+                    <div class="container">
+                        <a class="navbar-brand fs-2 fw-bolder  font-style" href="#">ONEDER</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fas fa-bars text-white fs-3 fw-lighter"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav font-style1">
+                                <li class="nav-item me-2  ">
+                                    <a class="nav-link active px-3 " aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link px-3" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                                        role="button" href="#About">
+                                        About Us<i class="fas fa-chevron-down ms-2 font-size-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                        <div class="border-top border-primary border-3">
+                                            <li><a class="dropdown-item py-2 " href="#">Team</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Pricing</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">FAQ</a></li>
+                                            <li class="dropdown menu2 ">
+                                                <a class="dropdown-item py-2" href="#">More Links<i
+                                                        class="fas fa-chevron-right ms-5 ps-5 font-size-icon"></i></a>
+                                                <ul class="dropdown-menu submenu2  " aria-labelledby="dropdownMenuLink">
+                                                    <div class="border-top border-primary border-3">
+                                                        <li><a class="dropdown-item py-2" href="#">Menu One</a></li>
+                                                        <li><a class="dropdown-item py-2" href="#">Menu Tow</a></li>
+                                                        <li><a class="dropdown-item py-2" href="#">Menu Three</a>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link px-3" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3" href="#Services">Services</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3" href="#Testimonial">Testimonial</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3" href="#Blog">Blog</a>
+                                </li>
+                                <li class="nav-item ms-2  ">
+                                    <a class="nav-link  px-3 " href="#Contact Us">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <nav class="navbar navbar-dark bg-transparent  fixed-top d-xl-none" style="top:0">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2 fw-bolder  font-style" href="#">ONEDER</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 font-style1">
+                                <li class="nav-item">
+                                    <a class="nav-link active px-3 fs-4 text-dark " aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link px-3 fs-4 text-dark" id="navbarDropdownMenuLink"
+                                        data-bs-toggle="dropdown" role="button" href="#About">
+                                        About Us<i class="fas fa-chevron-down ms-2 font-size-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton1">
+
+                                        <li><a class="dropdown-item py-2 " href="#">Team</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">Pricing</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">FAQ</a></li>
+                                        <li class="dropdown menu2 ">
+                                            <a class="dropdown-item py-2" href="#">More Links<i
+                                                    class="fas fa-chevron-right ms-5 ps-5 font-size-icon"></i></a>
+                                            <ul class="dropdown-menu submenu2 border-0 "
+                                                aria-labelledby="dropdownMenuLink">
+                                                <li><a class="dropdown-item py-2" href="#">Menu One</a></li>
+                                                <li><a class="dropdown-item py-2" href="#">Menu Tow</a></li>
+                                                <li><a class="dropdown-item py-2" href="#">Menu Three</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link px-3 fs-4 text-dark " href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3 fs-4 text-dark" href="#Services">Services</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3 fs-4 text-dark" href="#Testimonial">Testimonial</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link  px-3 fs-4 text-dark" href="#Blog">Blog</a>
+                                </li>
+                                <li class="nav-item ms-2  ">
+                                    <a class="nav-link  px-3 fs-4 text-dark" href="#Contact Us">Contact Us</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row  justify-content-center " id="home">
+                <div class=" col-8 text-center fw-bolder text-white middel">
+                    <p>I'M Creative One Page Template by Colorlib</p>
+                </div>
+                <div class="col-12 text-center">
+                    <p>
+                        <a href="#" class="btn btn-primary px-4 fs-6 py-2 rounded-pill but" role="button">Get In
+                            Touch</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section id="About" class="pt-4">
+        <div class="container mt-5">
+            <div class="row ">
+                <div class="col-12 justify-content-center my-5  text-primary text-center font-style">
+                    <h1>About Oneder</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <img src="images/hero_1.jpg" class="img-fluid " alt="">
+                    </div>
+                    <div class="col-lg-5 ms-5">
+                        <div class="mb-3 font-style1">
+                            <h3 class="mb-4 text-black">For the next great business</h3>
+                            <p class="text-muted ">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis ratione totam
+                                fuga sit culpa quisquam placeat?
+                            </p>
+                        </div>
+                        <div class=" text-muted font-style1">
+                            <ul class="list-unstyled">
+
+                                <li><i class="fas fa-check fw-lighter me-3  color-ticket"></i>Officia quaerat eaque
+                                    neque</li>
+                                <li><i class=" fas fa-check fw-lighter me-3 color-ticket"></i><span>Possimus aut
+                                        consequuntur
+                                        incidunt</span></li>
+                                <li><i class="fas fa-check fw-lighter me-3 color-ticket"></i><span>Lorem ipsum
+                                        dolor sit
+                                        amet</span></li>
+                                <li><i class=" fas fa-check fw-lighter me-3 color-ticket"></i><span>Consectetur
+                                        adipisicing
+                                        elit</span></li>
+                            </ul>
+
+                        </div>
+                        <p class="mt-4">
+                            <a href="#" class="btn btn-primary px-4 fs-6 py-2 rounded-pill but" role="button">Get In
+                                Touch</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row mt-5">
+                        <div class="col-12 mt-5 text-primary text-center font-style">
+                            <h1>Our Team</h1>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-8 text-center text-muted mt-3 fs-5">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptate voluptas earum
+                                veniam officiis culpa.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-3  text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_5.jpg" class="figure-img img-fluid " width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5> Dave Simpson</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_6.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Dave Simpson</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_7.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Ben Thompson</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_8.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Kyla Stewart</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_1.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Kaiara Spencer</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_2.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Dave Simpson</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_3.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Ben Thompson</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <figure class="figure mt-5">
+                        <div class="team-member">
+                            <ul>
+                                <li><a href="#"><span
+                                            class="bi bi-facebook text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-twitter text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-linkedin text-white px-3 py-2 bg-primary d-inline-block"></span></a>
+                                </li>
+                                <li><a href="#"><span
+                                            class="bi bi-instagram text-white px-3  py-2 bg-primary d-inline-block "></span></a>
+                                </li>
+                                <li class="bg-primary py-5"></li>
+                            </ul>
+                        </div>
+                        <img src="images/person_4.jpg" class="figure-img img-fluid" width="250" hight="250" alt="...">
+
+                    </figure>
+                    <div class="p-2 ">
+                        <h5>Chris Stewart</h5>
+                        <span class="text-color">Product Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="pt-5">
+        <div class="container">
+            <div class="row mb-2 mt-5">
+                <div class="col-12 text-center text-primary mb-3 font-style mt-4">
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+            <div class="row mb-5 ">
+                <div class="col-12 text-center">
+                    <button class="btn btn-primary btn-outline-primary vision active">all</button>
+                    <button class="btn btn-light ms-2 vision">web</button>
+                    <button class="btn btn-light ms-2 vision">design</button>
+                    <button class="btn btn-light ms-2 vision">brand</button>
+                </div>
+            </div>
+            <div class="row h-body-portfolio" style="position: relative; ">
+                <div class=" col-sm-6 col-md-4 col-lg-4  col-xl-3 text-center mb-4  img-1 ">
+                    <a href="images/img_1.jpg">
+                        <figure class="figure">
+                            <img src="images/img_1.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white">
+                                <span class="fas fa-search fs-5 fw-normal "></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3  mb-4  text-center img-2">
+                    <a href="images/img_2.jpg">
+                        <figure class="figure">
+                            <img src="images/img_2.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4  text-center  img-3 ">
+                    <a href="images/img_3.jpg">
+                        <figure class="figure">
+                            <img src="images/img_3.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4  text-center   img-4">
+                    <a href="images/img_4.jpg">
+                        <figure class="figure">
+                            <img src="images/img_4.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4  img-5">
+                    <a href="images/img_5.jpg">
+                        <figure class="figure">
+                            <img src="images/img_5.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-6">
+                    <a href="images/img_6.jpg">
+                        <figure class="figure">
+                            <img src="images/img_6.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-7">
+                    <a href="images/img_8.jpg">
+                        <figure class="figure">
+                            <img src="images/img_8.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-8">
+                    <a href="images/img_7.jpg">
+                        <figure class="figure">
+                            <img src="images/img_7.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4  img-9">
+                    <a href="images/img_9.jpg">
+                        <figure class="figure">
+                            <img src="images/img_9.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-10">
+                    <a href="images/img_10.jpg">
+                        <figure class="figure">
+                            <img src="images/img_10.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4  img-11">
+                    <a href="images/img_11.jpg">
+                        <figure class="figure">
+                            <img src="images/img_11.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-12">
+                    <a href="images/img_12.jpg">
+                        <figure class="figure">
+                            <img src="images/img_12.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </div>
+                <div class=" col-sm-6 col-md-4 col-lg-4 col-xl-3 text-center mb-4   img-13">
+                    <a href="images/img_13.jpg">
+                        <figure class="figure">
+                            <img src="images/img_13.jpg" class="figure-img img-fluid" alt="...">
+                            <figcaption class=" figure-caption text-center text-white"><span
+                                    class="fas fa-search fs-5 fw-normal"></span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Services" class="p-4">
+        <div class="bg-light ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 font-style text-primary text-center my-5">
+                        <h1>our Services</h1>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon1.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5">Business Consulting</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon2.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5">Market Analysis</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon3.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5 ">User Monitoring</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon4.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5 ">Insurance Consulting</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon5.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5 ">Financial Investment</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                        <div class="section1">
+                            <img src="images/icon6.png" alt="" class="img-fluid">
+                            <h3 class="text-black h5 ">Financial Management</h3>
+                            <p class="text-secondary lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis
+                                quis molestiae vitae
+                                eligendi at.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="Testimonial" class="p-4">
+        <div class="container mt-5">
+            <div class="row ">
+                <div class="col-12 my-5 ">
+                    <h1 class="text-primary text-center font-style">Testimonials</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center d-grid">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators ">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active " aria-current="true" aria-label="Slide">
+                                <div class="circle-dot">
+                                    <span></span>
+                                </div>
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2">
+                                <div class="circle-dot">
+                                    <span></span>
+                                </div>
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3">
+                                <div class="circle-dot">
+                                    <span></span>
+                                </div>
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4">
+                                <div class="circle-dot">
+                                    <span></span>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item  active">
+
+
+                                <blockquote class="mb-5 ">
+                                    <p class=" text-secondary  text-center fs-3    fst-italic size">
+
+                                        “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
+                                        reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga
+                                        beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum
+                                        unde
+                                        iusto.”
+                                    </p>
+                                </blockquote>
+
+                                <figure class="mb-4 d-flex  align-items-center justify-content-center">
+                                    <div>
+                                        <img src="images/person_3.jpg" class="rounded-circle " width="50" height="50"
+                                            alt="" class="img-fluid rounded-circle ">
+                                    </div>
+                                    <p class="text-secondary text-center mt-3 ms-4 ">john smith</p>
+                                </figure>
+
+
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <blockquote>
+                                        <p class=" text-secondary  text-center fs-3 fst-italic size">
+
+                                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
+                                            reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga
+                                            beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum
+                                            unde
+                                            iusto.”
+                                        </p>
+                                    </blockquote>
+                                    <figure class="mb-4 d-flex  align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/person_2.jpg" class="rounded-circle " width="50"
+                                                height="50" alt="" class="img-fluid rounded-circle ">
+                                        </div>
+                                        <p class="text-secondary text-center mt-3 ms-4 ">christine Aguilar</p>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <blockquote>
+                                        <p class=" text-secondary  text-center fs-3 fst-italic size">
+
+                                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde
+                                            reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga
+                                            beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum
+                                            unde
+                                            iusto.”
+                                        </p>
+                                    </blockquote>
+                                    <figure class="mb-4 d-flex  align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/person_4.jpg" class="rounded-circle " width="50"
+                                                height="50" alt="" class="img-fluid rounded-circle ">
+                                        </div>
+                                        <p class="text-secondary text-center mt-3 ms-4 ">Robert Spears</p>
+                                    </figure>
+                                </div>
+                                <div class="carousel-item">
+                                    <div>
+                                        <blockquote>
+                                            <p class=" text-secondary  text-center fs-3 fst-italic size">
+
+                                                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                                                unde
+                                                reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima
+                                                fuga
+                                                beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum
+                                                unde
+                                                iusto.”
+                                            </p>
+                                        </blockquote>
+                                        <figure class="mb-4 d-flex  align-items-center justify-content-center">
+                                            <div>
+                                                <img src="images/person_4.jpg" class="rounded-circle " width="50"
+                                                    height="50" alt="" class="img-fluid rounded-circle ">
+                                            </div>
+                                            <p class="text-secondary text-center mt-3 ms-4 ">Bruse Rogers</p>
+                                        </figure>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-light pt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center text-primary font-style">
+                    <h1>Pricing</h1>
+                </div>
+                <div class="col-md-6 my-4 pt-5 mb-lg-0 col-lg-4 text-center text-black bg-white">
+                    <h3>Basic</h3>
+                    <span class="text-color">
+                        <span class="text-primary fs-1 ">$47</span>/year
+                    </span>
+                    <ul class="text-start text-secondary ">
+
+                        <li><span><i class="fas fa-check me-3 my-4   fw-lighter text-success"></i>Officia
+                                quaerat
+                                eaque
+                                neque</span></li>
+                        <li><span><i class="fas fa-check me-3 mb-4   fw-lighter text-success"></i>Possimus
+                                aut
+                                consequuntur
+                                incidunt</span></li>
+                        <li class="text-decoration-line-through"><span><i
+                                    class="fas fa-check me-3 mb-4 fw-lighter text-secondary"></i>Lorem ipsum
+                                dolor sit
+                                amet</span></li>
+                        <li class="text-decoration-line-through"></i><span><i
+                                    class="fas fa-check me-3 mb-4 fw-lighter text-secondary"></i>Consectetur
+                                adipisicing
+                                elit</span></li>
+                        <li class="text-decoration-line-through "><span><i
+                                    class="fas fa-check me-3  mb-4 fw-lighter text-secondary"></i>Dolorum
+                                esse
+                                odio quas architecto sint
+                            </span></li>
+                    </ul>
+                    <button class="btn btn-secondary rounded-pill py-2 px-4 mb-5">Buy Now</button>
+
+
+                </div>
+                <div class="col-md-6 my-4  pt-5 mb-lg-0 col-lg-4 text-center text-black bg-white">
+                    <h3>Premium</h3>
+                    <span class="text-color">
+                        <span class="text-primary fs-1 ">$200</span>/year
+                    </span>
+                    <ul class="text-start text-secondary ">
+
+                        <li><span><i class="fas fa-check me-3 my-4   fw-lighter text-success"></i>Officia
+                                quaerat
+                                eaque
+                                neque</span></li>
+                        <li><span><i class="fas fa-check me-3 mb-4   fw-lighter text-success"></i>Possimus
+                                aut
+                                consequuntur
+                                incidunt</span></li>
+                        <li><span><i class="fas fa-check me-3 mb-4 fw-lighter text-success"></i>Lorem ipsum
+                                dolor sit
+                                amet</span></li>
+                        <li></i><span><i class="fas fa-check me-3 mb-4 fw-lighter text-success"></i>Consectetur
+                                adipisicing
+                                elit</span></li>
+                        <li class="text-decoration-line-through "><span><i
+                                    class="fas fa-check me-3  mb-4 fw-lighter text-secondary"></i>Dolorum
+                                esse
+                                odio quas architecto sint
+                            </span></li>
+                    </ul>
+                    <button class="btn btn-primary rounded-pill py-2 px-4 mb-5">Buy Now</button>
+
+                </div>
+                <div class="col-md-6 my-4 pt-5 mb-lg-0 col-lg-4 text-center text-black bg-white">
+                    <h3>Professional</h3>
+                    <span class="text-color">
+                        <span class="text-primary fs-1 ">$750</span>/year
+                    </span>
+                    <ul class="text-start text-secondary ">
+
+                        <li><span><i class="fas fa-check me-3 my-4   fw-lighter text-success"></i>Officia
+                                quaerat
+                                eaque
+                                neque</span></li>
+                        <li><span><i class="fas fa-check me-3 mb-4   fw-lighter text-success"></i>Possimus
+                                aut
+                                consequuntur
+                                incidunt</span></li>
+                        <li><span><i class="fas fa-check me-3 mb-4 fw-lighter text-success"></i>Lorem ipsum
+                                dolor sit
+                                amet</span></li>
+                        <li></i><span><i class="fas fa-check me-3 mb-4 fw-lighter text-success"></i>Consectetur
+                                adipisicing
+                                elit</span></li>
+                        <li><span><i class="fas fa-check me-3  mb-4 fw-lighter text-success"></i>Dolorum
+                                esse
+                                odio quas architecto sint
+                            </span></li>
+                    </ul>
+                    <button class="btn btn-secondary rounded-pill py-2 px-4 mb-5">Buy Now</button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-light my-5">
+        <div class="container p-5">
+            <div class="row  mt-5">
+                <div class="col-12 text-primary text-center mb-4 font-style">
+                    <h1>Frequently Ask Questions</h1>
+                </div>
+                <div class="col-lg-6 mt-5  font-style1 ">
+                    <div class="dv1 ">
+                        <h3 class="text-black mb-3 h5">Can I accept both Paypal and Stripe?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.</p>
+                    </div>
+                    <div class="dv2">
+                        <h3 class="text-black mb-3 h5">What available is refund period?</h3>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis
+                            perferendis.
+                        </p>
+                    </div>
+                    <div class="dv3">
+                        <h3 class="text-black mb-3 h5">Can I accept both Paypal and Stripe?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.</p>
+                    </div>
+                    <div class="dv4">
+                        <h3 class="text-black mb-3 h5">What available is refund period?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 font-style1">
+                    <div class="dv1">
+                        <h3 class="text-black mb-3 h5">Where are you from?</h3>
+                        <p class="text-secondary">Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod
+                            maxime corporis officia et.
+                            Distinctio assumenda minima maiores.</p>
+                    </div>
+                    <div class="dv2">
+                        <h3 class="text-black mb-3 h5">What is your opening time?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.</p>
+                    </div>
+                    <div class="dv3">
+                        <h3 class="text-black mb-3 h5">Can I accept both Paypal and Stripe?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.
+                            What available</p>
+                    </div>
+                    <div class="dv4">
+                        <h3 class="text-black mb-3 h5">assumenda eum blanditiis perferendis.
+                            What available is refund period?</h3>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                            assumenda
+                            eum blanditiis
+                            perferendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="  bg-light">
+        <div class="container ">
+            <div class="row ">
+                <div class=" col-lg-6 col-md-12 order-1 order-lg-2">
+                    <img src="images/hero_1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 ">
+                            <img src="images/icon6.png" alt="" class="img-fluid mb-3 ">
+                            <h5 class="text-black">Web & Mobile Specialties</h5>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis quis consect.</p>
+                            <p>
+                                <a href="#" class="text-decoration-none">learn more</a>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 ">
+                            <img src="images/icon5.png" alt="" class="img-fluid mb-3 ">
+                            <h3>Intuitive Thinkers</h3>
+                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis quis consect.</p>
+                            <p>
+                                <a href="#" class="text-decoration-none">learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="Blog" class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-primary  text-center my-5  font-style">
+                    <h1>Our Blog</h1>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4  ">
+                    <img src="images/post_1.jpg" alt="" class="img-fluid mb-3">
+                    <h2><a class="text-black text-decoration-none fs-4 h6 " href="#">
+                            Repudiandae Quisquam Eaque Dolore</a></h2>
+                    <p class="mb-3 text-color1 ">
+                        Harm Brook
+                        <span class="mx-2 fs-3">.</span>
+                        Jan 18, 2019
+                        <span class="mx-2 fs-3">.</span>
+
+                        <a href="#" class="text-decoration-none">News</a>
+                    </p>
+
+                    <p class="text-secondary  font-size-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Maxime
+                        reiciendis,
+                        placeat deserunt,
+                        dolores corrupti ex facilis eius rerum voluptatibus natus nihi!</p>
+                    <p>
+                        <a href="#" class="text-decoration-none h5">Continue Reading...</a>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 ">
+                    <img src="images/post_2.jpg" alt="" class="img-fluid mb-3">
+                    <h2><a class="text-black text-decoration-none fs-4 h6 " href="#">
+                            Repudiandae Quisquam Eaque Dolore</a></h2>
+                    <p class="mb-3 text-color1 ">
+                        James Phelps
+                        <span class="mx-2 fs-3">.</span>
+                        Jan 18, 2019
+                        <span class="mx-2 fs-3">.</span>
+
+                        <a href="#" class="text-decoration-none">News</a>
+                    </p>
+
+                    <p class="text-secondary  font-size-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Maxime
+                        reiciendis,
+                        placeat deserunt,
+                        dolores corrupti ex facilis eius rerum voluptatibus natus nihi!</p>
+                    <p>
+                        <a href="#" class="text-decoration-none h5">Continue Reading...</a>
+                    </p>
+
+
+                </div>
+                <div class=" col-md-6 col-lg-4 mb-4 mb-lg-4 ">
+                    <img src="images/post_3.jpg" alt="" class="img-fluid mb-3">
+                    <h2><a class="text-black text-decoration-none fs-4 h6 " href="#">
+                            Repudiandae Quisquam Eaque Dolore</a></h2>
+                    <p class="mb-3 text-color1 ">
+                        James Phelps
+                        <span class="mx-2 fs-3">.</span>
+                        Jan 18, 2019
+                        <span class="mx-2 fs-3">.</span>
+
+                        <a href="#" class="text-decoration-none">News</a>
+                    </p>
+
+                    <p class="text-secondary  font-size-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Maxime
+                        reiciendis,
+                        placeat deserunt,
+                        dolores corrupti ex facilis eius rerum voluptatibus natus nihi!</p>
+                    <p>
+                        <a href="#" class="text-decoration-none h5">Continue Reading...</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class=" bg-light p-5" id="Contact Us">
+        <div class="container my-5 ">
+            <div class="row mb-5 my-5">
+                <div class="col-12 text-primary text-center font-style">
+                    <h1>Contact Us</h1>
+                </div>
+
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4 text-center">
+
+                    <span class="fas fa-map-marker-alt d-block text-primary fs-5 mb-3 fw-normal"></span>
+                    <p class="text-secondary ">
+                        203 Fake St. Mountain View, San Francisco, California, USA
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <span class="fas fa-phone-alt d-block text-primary fs-5 mb-3"></span>
+                        <a href="#" class="mt-5 text-decoration-none">+1 232 3235 324</a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <span class="far fa-envelope d-block text-primary fs-5 mb-3"></span>
+                        <a href="#" class=" text-decoration-none">youremail@domain.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row bg-white mt-5">
+                <div class="col-md-12 p-5">
+                    <form class="row">
+                        <h4>Contact form</h4>
+                        <div class="col-md-6 mb-md-0 mt-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                            <input type="text" class="form-control form-control-lg round-field"
+                                id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-6 mt-3 mb-3">
+
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="email" class="form-control form-control-lg round-field"
+                                id="exampleFormControlInput1">
+
+                        </div>
+                        <div class="col-md-12 mb-3 ">
+
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-lg round-field"
+                                id="exampleFormControlInput1">
+
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label ">Subject</label>
+                            <textarea class="form-control form-control-lg round-field " id="exampleFormControlTextarea1"
+                                rows="6"></textarea>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <button class="btn btn-primary round-field px-4 py-2">Send Message</button>
+                        </div>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container py-5 ">
+            <div class="row ">
+                <div class="col-md-4 lh-lg mb-5">
+                    <h6 class="footer mb-4 text-white ">About Us</h6>
+                    <p class="text-secondary">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci harum ut assumenda
+                        autem quos ad voluptas
+                        veritatis alias similique pariatur numquam?
+                    </p>
+                </div>
+                <div class="col-md-2 mb-5 ">
+                    <h6 class="footer mb-4 text-white ms-lg-4">Quick Links</h6>
+                    <ul class="text-secondary lh-lg ">
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Testimonials</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <h6 class="footer mb-4 text-white ">Follow Us</h6>
+                    <a href="#"><span class="fab fa-facebook-f text-secondary me-4"></span></a>
+                    <a href="#"><span class="bi bi-twitter text-secondary  me-4"></span></a>
+                    <a href="#"><span class="bi bi-instagram text-secondary  me-4"></span></a>
+                    <a href="#"><span class="fab fa-linkedin-in text-secondary  me-4"></span></a>
+
+                </div>
+                <div class="col-md-3 mb-5">
+                    <h6 class="footer mb-4 text-white ">Subscribe Newsletter</h6>
+                    <div class="input-group mb-3 ">
+                        <input type="text" class="form-control border-secondary bg-transparent text-white p-2"
+                            placeholder="Enter Email" aria-label="enter email" aria-describedby="basic-addon2">
+                        <span class="input-group-text border-primary bg-white border1" id="basic-addon2">Send</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row  border-top border-secondary border-1 py-5 my-5">
+                <div class="col-12 text-secondary text-center ">
+                    <div class="foot">
+                        <p>Copyright ©2022 All rights reserved | This template is made with
+                            <i class="fas fa-heart text-danger"></i>
+                            by
+                            <a href="#">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

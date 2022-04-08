@@ -1,0 +1,993 @@
+* {
+    box-sizing: border-box;
+    outline: 0px;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.border-bottom-nav {
+    border-bottom: 1px solid rgba(211, 209, 209, 0.562);
+
+}
+
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+.menu2:hover .submenu2 {
+    display: block;
+
+}
+
+.font-size-icon {
+    font-size: 10px;
+
+
+}
+
+.submenu2 {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+
+}
+
+ul li .submenu2 {
+    width: 220px;
+}
+
+.back {
+    background-image: url("images/hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+
+.line {
+    border-bottom: 2px solid white;
+
+}
+
+.shadow {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+@font-face {
+    font-family: WorkSans-Black;
+    src: url("fonts/WorkSans-Black.ttf");
+}
+
+.font-style1 {
+    font-family: WorkSans-Regular;
+    line-height: 2rem;
+
+}
+
+.font-style {
+    font-family: WorkSans-Black;
+
+
+}
+
+.middel {
+
+    font-family: WorkSans-Black;
+    text-transform: uppercase;
+    font-size: 48px;
+
+}
+
+
+.but:hover {
+    background-color: black;
+    border-color: black;
+
+}
+
+.color-ticket {
+    color: rgb(5, 163, 5);
+}
+
+.back {
+    background-image: url("images/hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.team-member ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    transform: translateX(-101%);
+
+}
+
+figure {
+    width: 250px;
+    margin: 0 auto;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+figure:hover ul {
+
+    transition: 0.3s ease-in;
+    transform: translateX(0px);
+
+}
+
+.text-color {
+    color: #ccc;
+    letter-spacing: 0.1rem;
+
+}
+
+.text-color1 {
+    color: rgb(160, 159, 159);
+    font-size: 0.9rem;
+}
+
+.font-size-p {
+    font-size: 1rem;
+    line-height: 1.7;
+
+}
+
+.round-field {
+    border-radius: 30px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.form-control {
+    border-top-left-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+
+}
+
+.border1 {
+    border-top-right-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.foot a {
+    text-decoration: none;
+    color: rgb(185, 183, 183);
+}
+
+footer {
+    background-color: rgb(46, 45, 45);
+}
+
+span.tik::before {
+    content: "";
+    font-family: "Font-Awesome";
+    font-weight: 900;
+
+
+
+}
+
+.test::before {
+    content: '\2713 ';
+    font-family: Font-Awesome;
+    font-weight: 900;
+    color: rgb(21, 189, 21);
+}
+
+
+.size {
+    width: 800px;
+    background-color: white;
+}
+
+.circle-dot {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+    margin: 4px;
+}
+
+/* portfolio */
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url("fonts/WorkSans-Regular.ttf");
+}
+
+.vision {
+    border-radius: 30px;
+    width: auto;
+    border: 1px solid transparent;
+    background-color: rgba(211, 211, 211, 0.37);
+    font-family: WorkSans-Regular;
+
+}
+
+.vision:hover {
+    background-color: rgb(8, 117, 226);
+    color: white;
+}
+
+.position-image {
+    position: relative;
+}
+
+
+.img-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.img-1 figure {
+
+    width: 255px;
+    height: 278px;
+    position: relative;
+    cursor: pointer;
+
+
+
+}
+
+.img-1 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 278px;
+    position: absolute;
+    padding-top: 130px;
+
+
+
+}
+
+.img-1 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-2 {
+    position: absolute;
+    top: 0px;
+    left: 285px;
+
+
+}
+
+.img-2 figure {
+
+    width: 255px;
+    height: 340px;
+    position: relative;
+    cursor: pointer;
+
+
+
+}
+
+.img-2 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 340px;
+    position: absolute;
+    padding-top: 170px;
+
+
+}
+
+.img-2 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-3 {
+    position: absolute;
+    top: 0px;
+    left: 570px;
+
+}
+
+.img-3 figure {
+
+    width: 255px;
+    height: 382px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.img-3 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 382px;
+    position: absolute;
+    padding-top: 170px;
+
+
+}
+
+.img-3 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-4 {
+    position: absolute;
+    top: 0px;
+    left: 855px;
+
+}
+
+.img-4 figure {
+
+    width: 255px;
+    height: 354px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.img-4 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 354px;
+    position: absolute;
+    padding-top: 170px;
+
+
+}
+
+.img-4 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-5 {
+    position: absolute;
+    top: 302px;
+    left: 0px;
+
+
+}
+
+.img-5 figure {
+
+    width: 255px;
+    height: 424px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.img-5 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 424px;
+    position: absolute;
+    padding-top: 212px;
+
+
+}
+
+.img-5 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-6 {
+    position: absolute;
+    top: 365px;
+    left: 285px;
+
+
+}
+
+.img-6 figure {
+
+    width: 255px;
+    height: 382px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-6 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 382px;
+    position: absolute;
+    padding-top: 190px;
+
+
+}
+
+.img-6 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-7 {
+    position: absolute;
+    top: 378px;
+    left: 855px;
+
+
+}
+
+.img-7 figure {
+
+    width: 255px;
+    height: 169px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-7 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 169px;
+    position: absolute;
+    padding-top: 91px;
+
+
+}
+
+.img-7 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-8 {
+    position: absolute;
+    top: 406px;
+    left: 570px;
+
+
+}
+
+.img-8 figure {
+
+    width: 255px;
+    height: 169px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-8 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 169px;
+    position: absolute;
+    padding-top: 85px;
+
+
+}
+
+.img-8 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-9 {
+    position: absolute;
+    top: 571px;
+    left: 855px;
+
+
+}
+
+.img-9 figure {
+
+    width: 255px;
+    height: 453px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-9 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 453px;
+    position: absolute;
+    padding-top: 226px;
+
+
+}
+
+.img-9 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-10 {
+    position: absolute;
+    top: 613px;
+    left: 570px;
+
+
+}
+
+.img-10 figure {
+
+    width: 255px;
+    height: 167px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-10 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 167px;
+    position: absolute;
+    padding-top: 84px;
+
+
+}
+
+.img-10 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-11 {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+
+
+}
+
+.img-11 figure {
+
+    width: 255px;
+    height: 383px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-11 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 383px;
+    position: absolute;
+    padding-top: 192px;
+
+
+}
+
+.img-11 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-12 {
+    position: absolute;
+    top: 770px;
+    left: 285px;
+
+
+}
+
+.img-12 figure {
+
+    width: 255px;
+    height: 169px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-12 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 169px;
+    position: absolute;
+    padding-top: 85px;
+
+
+}
+
+.img-12 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.img-13 {
+    position: absolute;
+    top: 804px;
+    left: 570px;
+
+
+}
+
+.img-13 figure {
+
+    width: 255px;
+    height: 169px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.img-13 figure figcaption {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 255px;
+    height: 169px;
+    position: absolute;
+    padding-top: 85px;
+
+
+}
+
+.img-13 figure:hover figcaption {
+    top: 0px;
+
+}
+
+.h-body-portfolio {
+    height: 1200px;
+}
+
+@media all and (min-width:0px) and (max-width:575px) {
+    .middel {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+
+
+    .img-1 {
+
+        top: 0px;
+        left: 0px;
+    }
+
+    .img-2 {
+
+        top: 0px;
+        left: 285px;
+    }
+
+    .img-3 {
+
+        top: 302px;
+        left: 0px;
+    }
+
+    .img-4 {
+
+        top: 364px;
+        left: 285px;
+
+    }
+
+    .img-5 {
+
+        top: 710px;
+        left: 0px;
+
+
+    }
+
+    .img-6 {
+
+        top: 740px;
+        left: 285px;
+
+
+    }
+
+    .img-7 {
+
+        top: 1144px;
+        left: 285px;
+
+
+    }
+
+    .img-8 {
+
+        top: 1155px;
+        left: 0px;
+
+
+    }
+
+    .img-9 {
+
+        top: 1330px;
+        left: 285px;
+
+    }
+
+    .img-10 {
+
+        top: 1340px;
+        left: 0px;
+
+
+    }
+
+    .img-11 {
+
+        top: 1530px;
+        left: 0px;
+
+
+    }
+
+    .img-12 {
+
+        top: 1810px;
+        left: 285px;
+
+
+    }
+
+    .img-13 {
+
+        top: 1935px;
+        left: 0px;
+
+
+    }
+
+    .h-body-portfolio {
+        height: 2300px;
+    }
+
+    .middel {
+        font-size: 28px;
+    }
+
+    .middel {
+        font-size: 25px;
+    }
+
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .img-1 {
+
+        top: 0px;
+        left: 0px;
+    }
+
+    .img-2 {
+
+        top: 0px;
+        left: 285px;
+    }
+
+    .img-3 {
+
+        top: 0px;
+        left: 570px;
+    }
+
+    .img-4 {
+
+        top: 302px;
+        left: 0px;
+
+    }
+
+    .img-5 {
+
+        top: 365px;
+        left: 285px;
+
+
+    }
+
+    .img-6 {
+
+        top: 408px;
+        left: 570px;
+
+
+    }
+
+    .img-7 {
+
+        top: 681px;
+        left: 0px;
+
+
+    }
+
+    .img-8 {
+
+        top: 820px;
+        left: 285px;
+
+
+    }
+
+    .img-9 {
+
+        top: 820px;
+        left: 570px;
+
+    }
+
+    .img-10 {
+
+        top: 881px;
+        left: 0px;
+
+
+    }
+
+    .img-11 {
+
+        top: 1020px;
+        left: 285px;
+
+
+    }
+
+    .img-12 {
+
+        top: 1070px;
+        left: 0px;
+
+
+    }
+
+    .img-13 {
+
+        top: 1260px;
+        left: 0px;
+
+
+    }
+
+    .h-body-portfolio {
+        height: 1660px;
+    }
+
+    .middel {
+        font-size: 35px;
+    }
+}
+
+
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .img-1 {
+
+        top: 0px;
+        left: 0px;
+    }
+
+    .img-2 {
+
+        top: 0px;
+        left: 285px;
+    }
+
+    .img-3 {
+
+        top: 0px;
+        left: 570px;
+    }
+
+    .img-4 {
+
+        top: 302px;
+        left: 0px;
+
+    }
+
+    .img-5 {
+
+        top: 365px;
+        left: 285px;
+
+
+    }
+
+    .img-6 {
+
+        top: 408px;
+        left: 570px;
+
+
+    }
+
+    .img-7 {
+
+        top: 681px;
+        left: 0px;
+
+
+    }
+
+    .img-8 {
+
+        top: 820px;
+        left: 285px;
+
+
+    }
+
+    .img-9 {
+
+        top: 820px;
+        left: 570px;
+
+    }
+
+    .img-10 {
+
+        top: 881px;
+        left: 0px;
+
+
+    }
+
+    .img-11 {
+
+        top: 1020px;
+        left: 285px;
+
+
+    }
+
+    .img-12 {
+
+        top: 1070px;
+        left: 0px;
+
+
+    }
+
+    .img-13 {
+
+        top: 1260px;
+        left: 0px;
+
+
+    }
+
+    .h-body-portfolio {
+        height: 1660px;
+    }
+}
